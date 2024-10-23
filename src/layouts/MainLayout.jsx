@@ -1,4 +1,5 @@
 import { Box } from "@chakra-ui/react";
+
 const MainLayout = ({ children }) => {
   return (
     <Box>

@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 
 import { useItemById } from "../hooks";
 
-import { ItemDetailContainer, Loader } from "../component";
+import { ItemDetailContainer, Loader } from "../components";
 
 export const ItemDetail = () => {
   const { id } = useParams();

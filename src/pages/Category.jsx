@@ -1,6 +1,6 @@
 import React from "react";
 import { useItemsByCategory } from "../hooks";
-import { ItemListContainer, Loader } from "../component";
+import { ItemListContainer, Loader } from "../components";
 import { useParams } from "react-router";
 
 export const Category = () => {
